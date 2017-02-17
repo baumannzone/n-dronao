@@ -1,17 +1,15 @@
-console.log("Iniciando server de Node");
+console.log("Server Iniciado ");
 
-// Conectarse al WiFi del Drone
-
-/* Drone Control Code */
 var arDrone = require("ar-drone");
 var dronappi = arDrone.createClient();
+var fs = require('fs');
 
 function bateria () {
     console.log( `==> Bateria: ==> ${ dronappi.battery() }` );
 }
 
 function despegar_drone() {
-    // dronappi.config("control:altitude_max", 100000);
+    //dronappi.config("control:altitude_max", 10000); # 10m
     dronappi.takeoff();
     rotar_drone();
     bateria();
@@ -23,22 +21,37 @@ function rotar_drone() {
     dronappi.up(1);
 }
 
+// Move left
 function izquierda() {
   dronappi.stop();
   dronappi.calibrate(0);
   dronappi.left(0.5);
 }
 
+// Move right
 function derecha() {
   dronappi.stop();
   dronappi.calibrate(0);
   dronappi.right(0.5);
 }
 
+// Land Drone
 function aterrizar_drone() {
     dronappi.stop();
     dronappi.land();
     bateria();
+}
+
+// md ==> html
+function render_markdown ( file ) {
+    var showdown  = require('showdown');
+    var converter = new showdown.Converter();
+    var text      = '#hello, markdown!';
+    var html      = converter.makeHtml(text);
+
+    fs.readFile('DATA', 'utf8', function(err, contents) {
+        console.log(contents);
+    });
 }
 
 /* Express y Sevidor Web */
@@ -51,7 +64,6 @@ server = web.listen(8080, function () {
 });
 
 // Rutas
-
 web.get("/", function(req, res)    {
     // dronappi.on('navdata', console.log);
     console.log("Home");
@@ -85,4 +97,9 @@ web.get("/derecha", function(req, res) {
     console.log("derecha");
     derecha();
     res.sendfile("opciones.html");
+});
+
+web.get("/info", function (req, res) {
+
+    res.sendFile('Lmao troll!');
 });

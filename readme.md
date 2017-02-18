@@ -1,15 +1,16 @@
 # DronAPPi :rocket:
 
-Simple `nodejs` webapp to manage a parrot ar-drone v2 via browser
+Basic webapp to control a parrot ar-drone v2 via browser. Uses `pug` (formerly known as `jade`) as template engine, 
+some markdown to html converter, and of course, `node.js`
 
-## Getting Started
-
+## Getting Started :triangular_flag_on_post:
+___
 
 ### Prerequisites
 
 One Parrot AR.Drone v2 (may work with v1 too). [Link here](https://www.parrot.com/us/drones/parrot-ardrone-20-elite-edition#parrot-ardrone-20-elite-edition-details "ar-drone") 
 
-![Img](public/assets/img/drone-logo.png =400x200)
+![Img](public/assets/img/drone-logo.png)
 
 You need `node.js` (and `npm`) installed in your computer.
 
@@ -20,23 +21,26 @@ Check it out, you should see something like this in your console:
 v4.2.6
 ```
 
+<br>
+
 #### npm
 ```
 → npm -v
 3.9.6
 ```
   
-
+<br>
 
 ### Installing
+___
 
 ```
 → git clone https://github.com/baumannzone/dronAPPi.git
 ```
 
 <br>
-Open proyect folder
-``` 
+Open proyect folder 
+```
 → cd dronAPPi
 ```
 
@@ -46,13 +50,20 @@ Install project dependencies
 → npm install
 ```
 <br>
-And repeat
 
+
+Run the app
 ```
-until finished
+→ node server.js
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+:triangular_flag_on_post: Finally, in your browser, go to [http://localhost:8088](http://localhost:8088) 
+
+### Node compatibility
+___
+
+This has been tested with node 4.2. 
+However, it should work with previous versions.
 
 ## Running the tests
 

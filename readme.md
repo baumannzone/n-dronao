@@ -4,16 +4,22 @@ Simple `nodejs` webapp to manage a parrot ar-drone v2 via browser
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Just make sure you have node.js installed.
 
 ### Prerequisites
 
-You need node.js installed. 
+We need `node.js` (and `npm`) installed in our computer.
 
-Check if node is installed
+Check it out, you should see something like this:
+#### node.js
 ```
-$ node -v
+→ node -v
 v4.2.6
+```
+
+```
+→ npm -v
+3.9.6
 ```
 
 ### Installing

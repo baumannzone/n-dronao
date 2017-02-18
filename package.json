@@ -6,6 +6,7 @@
   "dependencies": {
     "ar-drone": "^0.3.3",
     "express": "^4.14.1",
+    "pug": "^2.0.0-beta11",
     "showdown": "^1.6.4"
   },
   "devDependencies": {},

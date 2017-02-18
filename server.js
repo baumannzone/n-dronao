@@ -56,7 +56,7 @@ function render_markdown ( file ) {
 
     var text = fs.readFileSync('readme.md', 'utf8', function( err, contents ) {
         if ( err ) throw err;
-        console.log("#### ==> Fichero: ")
+        console.log("#### ==> Fichero: ");
         console.log( contents );
     });
     
@@ -74,6 +74,9 @@ var publicPath = __dirname + '/public/';
 
 app.use( express.static( __dirname + '/public' ));
 
+app.set('view engine', 'pug');
+app.set('views', './public');
+
 
 // Executed before any other routes
 router.use(function (req, res, next) {
@@ -85,19 +88,19 @@ router.use(function (req, res, next) {
 router.get('/', function (req, res) {
     // dronappi.on('navdata', console.log);
     dronappi.stop();
-    res.sendFile( publicPath + 'index.html' );
+    res.render('index', {});
 });
 
 // Take-off
 router.get('/despegar', function ( req, res ) {
     despegar_drone();
-    res.sendFile( publicPath + 'index.html' );
+    res.render( 'index', { });
 });
 
 // Land 
 router.get('/aterrizar', function ( req, res ) {
     aterrizar_drone();
-    res.sendFile( publicPath + 'index.html' );
+    res.render( 'index', { });
 });
 
 // Left
@@ -109,13 +112,13 @@ router.get('/izquierda', function ( req, res ) {
 // Right
 router.get('/derecha', function ( req, res ) {
     derecha();
-    res.sendFile( publicPath + 'index.html' );
+    res.render( 'index', { });
 });
 
 // Info
 router.get('/info', function ( req, res ) {
     var data = render_markdown( 'readme.md' );
-    res.status(200).send( data );
+    res.render( 'info', { data: data });
 });
 
 // Use the Routes we have defined above.

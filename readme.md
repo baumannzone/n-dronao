@@ -1,6 +1,6 @@
-# dronAPPi (Cloudappi's Drone)
+# DronAPPi (Cloudappi's Drone)
 
-One Paragraph of project description goes here
+Simple `nodejs` webapp to manage a parrot ar-drone v2 via browser
 
 ## Getting Started
 

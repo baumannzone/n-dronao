@@ -1,7 +1,7 @@
 # DronAPPi :rocket:
 
 Basic webapp to control a parrot ar-drone v2 via browser :computer:. Uses `pug` (formerly known as `jade`) as template engine, 
-some markdown to html converter, and of course, `node.js`
+some markdown to html converter, and of course, `node.js`. @cloudappi \'s drone is called DronAPPi.
 
 ## Getting Started
 
@@ -19,8 +19,7 @@ Check it out, you should see something like this in your console:
 → node -v
 v4.2.6
 ```
-
-<br>
+  
 
 #### npm
 ```
@@ -28,7 +27,6 @@ v4.2.6
 3.9.6
 ```
   
-<br>
 
 ### Installing
 
@@ -36,26 +34,26 @@ v4.2.6
 → git clone https://github.com/baumannzone/dronAPPi.git
 ```
 
-<br>
+  
 Open proyect folder 
 ```
 → cd dronAPPi
 ```
 
-<br>
+  
 Install project dependencies
 ```
 → npm install
 ```
-<br>
-
+  
 
 Run the app
 ```
 → node server.js
 ```
-
+  
 :space_invader: Finally, in your browser, go to [http://localhost:8088](http://localhost:8088) 
+  
 
 ### Node compatibility
 

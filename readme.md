@@ -1,9 +1,9 @@
 # DronAPPi :rocket:
 
-Basic webapp to control a parrot ar-drone v2 via browser. Uses `pug` (formerly known as `jade`) as template engine, 
+Basic webapp to control a parrot ar-drone v2 via browser :computer:. Uses `pug` (formerly known as `jade`) as template engine, 
 some markdown to html converter, and of course, `node.js`
 
-## Getting Started :triangular_flag_on_post:
+## Getting Started
 
 ### Prerequisites
 
@@ -55,7 +55,7 @@ Run the app
 → node server.js
 ```
 
-:triangular_flag_on_post: Finally, in your browser, go to [http://localhost:8088](http://localhost:8088) 
+:space_invader: Finally, in your browser, go to [http://localhost:8088](http://localhost:8088) 
 
 ### Node compatibility
 

@@ -4,7 +4,6 @@ Basic webapp to control a parrot ar-drone v2 via browser. Uses `pug` (formerly k
 some markdown to html converter, and of course, `node.js`
 
 ## Getting Started :triangular_flag_on_post:
-___
 
 ### Prerequisites
 
@@ -32,7 +31,6 @@ v4.2.6
 <br>
 
 ### Installing
-___
 
 ```
 → git clone https://github.com/baumannzone/dronAPPi.git
@@ -60,7 +58,6 @@ Run the app
 :triangular_flag_on_post: Finally, in your browser, go to [http://localhost:8088](http://localhost:8088) 
 
 ### Node compatibility
-___
 
 This has been tested with node 4.2. 
 However, it should work with previous versions.

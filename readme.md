@@ -4,11 +4,10 @@ Simple `nodejs` webapp to manage a parrot ar-drone v2 via browser
 
 ## Getting Started
 
-Just make sure you have node.js installed.
 
 ### Prerequisites
 
-One Parrot AR.Drone. [Link here](https://www.parrot.com/us/drones/parrot-ardrone-20-elite-edition#parrot-ardrone-20-elite-edition-details "Titulo") 
+One Parrot AR.Drone v2 (may work with v1 too). [Link here](https://www.parrot.com/us/drones/parrot-ardrone-20-elite-edition#parrot-ardrone-20-elite-edition-details "ar-drone") 
 
 ![Img](public/assets/img/drone-logo.png =400x200)
 
@@ -26,19 +25,27 @@ v4.2.6
 → npm -v
 3.9.6
 ```
+  
+
 
 ### Installing
 
-`→ git clone https://github.com/baumannzone/dronAPPi.git`
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
 ```
-Give the example
+→ git clone https://github.com/baumannzone/dronAPPi.git
 ```
 
+<br>
+Open proyect folder
+``` 
+→ cd dronAPPi
+```
+
+<br>
+Install project dependencies
+```
+→ npm install
+```
+<br>
 And repeat
 
 ```

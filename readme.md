@@ -10,7 +10,7 @@ Just make sure you have node.js installed.
 
 One Parrot AR.Drone. [Link here](https://www.parrot.com/us/drones/parrot-ardrone-20-elite-edition#parrot-ardrone-20-elite-edition-details "Titulo") 
 
-![Img](/assets/img/drone-logo.png =400x200)
+![Img](public/assets/img/drone-logo.png =400x200)
 
 You need `node.js` (and `npm`) installed in your computer.
 

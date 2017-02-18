@@ -72,7 +72,7 @@ var router     = express.Router();
 var dronappi   = arDrone.createClient();
 var publicPath = __dirname + '/public/';
 
-app.use( express.static( __dirname + '/public' ));
+app.use( '/public', express.static( __dirname + '/public' ));
 
 app.set('view engine', 'pug');
 app.set('views', './public');

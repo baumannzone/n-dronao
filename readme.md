@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/baumannzone/dronAPPi.svg?branch=master)](https://travis-ci.org/baumannzone/dronAPPi)
 [![Known Vulnerabilities](https://snyk.io/test/github/baumannzone/dronappi/badge.svg)](https://snyk.io/test/github/baumannzone/dronappi)
 
-Basic webapp to control a parrot ar-drone v2 via browser :computer:. Uses `pug` (formerly known as `jade`) as template engine, 
+Basic webapp to control a  Parrot AR Drone 2.0 quad-copter via browser :computer:. Uses `pug` (formerly known as `jade`) as template engine, 
 some markdown to html converter, and of course, `node.js`. @cloudappi \'s drone is called DronAPPi.
 
 ## Getting Started
@@ -81,6 +81,6 @@ This project is licensed under the MIT License - see the [license.md](license.md
 
 ## Acknowledgments
 
-* Inspiration came from one hackaton we made in early January in Madrid, where they have some drones.
-* Great thanks to [Cloudappi](https://cloudappi.net/).
-* Btw, `DronAPPi` is the cloudappi's drone name.
+* Inspiration came from one hackathon we went (as Cloudapp team) in early February in Madrid, where we brought some drones, and we started to hack it.
+* Great thanks to [@cloudappi](https://twitter.com/cloudappi).
+* Btw, `DronAPPi` is the Cloudappi's drone name.

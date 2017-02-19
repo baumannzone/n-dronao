@@ -1,0 +1,46 @@
+doctype html
+html(lang='es')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    // The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
+    title DronAPPi Dashboard
+    // Bootstrap
+    link(href='public/assets/css/bootstrap.min.css', rel='stylesheet')
+    // HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+    // WARNING: Respond.js doesn't work if you view the page via file://
+    //if lt IE 9
+      script(src='https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js')
+      script(src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js')
+  body
+    .container
+      h1 DronAPPi 
+        small Cloudappi's Drone
+
+      .btn-toolbar(role="toolbar")
+        .btn-group.btn-group-justified(role="group")
+          a.btn.btn-primary(href="/") Home
+            //- span.glyphicon.glyphicon-home
+          a.btn.btn-default(href="/take-off")
+            label.label.label-primary: span.glyphicon.glyphicon-chevron-up
+          a.btn.btn-default(href="/land")
+            label.label.label-primary: span.glyphicon.glyphicon-chevron-down
+          a.btn.btn-default(href="/left")
+            label.label.label-primary: span.glyphicon.glyphicon-triangle-left
+          a.btn.btn-default(href="/right")
+            label.label.label-primary: span.glyphicon.glyphicon-triangle-right
+
+        .btn-group.btn-group-justified(role="group")
+          a.btn.btn-default(href="/info") Info page
+          a.btn.btn-default(href="/license") License
+
+      hr
+      footer
+        p.pull-right By 
+          a(href="https://twitter.com/baumannzone") @baumannzone
+    
+    // jQuery (necessary for Bootstrap's JavaScript plugins)
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
+    // Include all compiled plugins (below), or include individual files as needed
+    script(src='public/assets/js/bootstrap.min.js')

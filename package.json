@@ -1,0 +1,21 @@
+{
+  "name": "dronAPPi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "ar-drone": "^0.3.3",
+    "express": "^4.14.1",
+    "pug": "^2.0.0-beta11",
+    "showdown": "^1.6.4"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.4"
+  },
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint 'server.js' routes/*",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

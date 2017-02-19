@@ -1,6 +1,6 @@
 {
   "name": "dronAPPi",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "server.js",
   "dependencies": {
@@ -16,6 +16,6 @@
     "test": "./node_modules/jshint/bin/jshint 'server.js' routes/*",
     "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Jorge Baumann",
+  "license": "MIT"
 }

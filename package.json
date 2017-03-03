@@ -13,7 +13,7 @@
     "jshint": "^2.9.4"
   },
   "scripts": {
-    "test": "./node_modules/jshint/bin/jshint 'server.js' routes/*",
+    "test": "./node_modules/jshint/bin/jshint 'server.js' routes/* controllers/*",
     "start": "node server.js"
   },
   "author": "Jorge Baumann",

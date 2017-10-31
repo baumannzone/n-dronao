@@ -1,5 +1,14 @@
 language: node_js
 node_js:
   - "4"
+  
+jdk:
+  - oraclejdk8
+  
+addons:
+  sonarcloud: true
+  
+script:
+  - sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=baumannzone-github -Dsonar.projectKey=dronAPPi -Dsonar.sources='./' -X
 
 # npm install

@@ -78,9 +78,3 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## License
 
 This project is licensed under the MIT License - see the [license.md](license.md) file for details
-
-## Acknowledgments
-
-* Inspiration came from one hackathon we went (as Cloudappi team) in early February in Madrid, where we brought some drones, and we started to hack it.
-* Great thanks to [@cloudappi](https://twitter.com/cloudappi).
-* Btw, `DronAPPi` is the Cloudappi's drone name.

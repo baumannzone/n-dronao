@@ -9,6 +9,6 @@ addons:
   sonarcloud: true
   
 script:
-  - sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=baumannzone-github -Dsonar.projectKey=dronAPPi -Dsonar.sources='./' -X
+  - sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=baumannzone-github -Dsonar.projectKey=n-dronao -Dsonar.sources='./' -X
 
 # npm install

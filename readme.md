@@ -1,6 +1,6 @@
 # :rocket: N-Dronao :rocket:
 
-[![Build Status](https://travis-ci.org/baumannzone/dronAPPi.svg?branch=master)](https://travis-ci.org/baumannzone/dronAPPi)
+[![Build Status](https://travis-ci.org/baumannzone/n-dronao.svg?branch=master)](https://travis-ci.org/baumannzone/n-dronao)
 [![Known Vulnerabilities](https://snyk.io/test/github/baumannzone/dronappi/badge.svg)](https://snyk.io/test/github/baumannzone/dronappi)
 
 Basic webapp to control a  Parrot AR Drone 2.0 quad-copter via browser :computer:. Uses `pug` (formerly known as `jade`) as template engine, 

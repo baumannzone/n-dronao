@@ -73,7 +73,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Jorge Baumann** - [@baumannzone](https://twitter.com/baumannzone) - [Website](http://baumannzone.com)
+* **Jorge Baumann** - [@baumannzone](https://twitter.com/baumannzone)
 
 
 ## License

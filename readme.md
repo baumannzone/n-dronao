@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/baumannzone/n-dronao.svg?branch=master)](https://travis-ci.org/baumannzone/n-dronao)
 [![Known Vulnerabilities](https://snyk.io/test/github/baumannzone/dronappi/badge.svg)](https://snyk.io/test/github/baumannzone/dronappi)
+[![SonarQube](https://sonarcloud.io/api/project_badges/measure?project=n-dronao&metric=alert_status)](https://sonarcloud.io/dashboard?id=n-dronao)
 
 Basic webapp to control a  Parrot AR Drone 2.0 quad-copter via browser :computer:. Uses `pug` (formerly known as `jade`) as template engine, 
 some markdown to html converter, and of course, `node.js`.
